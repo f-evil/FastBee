@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Sorry,当前网络不给力！</title>
+    <style>
+        *{ padding:0; margin:0; font-family: "微软雅黑"; }
+        img{ border:none;}
+        a{ text-decoration:none; color: #e00}
+        a:hover,a:active{ text-decoration:none;}
+        li{ list-style:none;}
+        .by404{margin:1em; text-align: center;}
+        .by404 h1{ font-size: 60px; margin: 1.5em 0;}
+        .by404 p{ margin: .5em 0;}
+    </style>
+
+    <script>
+    function reload() {
+        var n = self.location.href.indexOf("?url=");    //查看是否包含参数
+        if(n>0) {
+            var url = self.location.href.substr(n+5);
+            window.location.href = url;
+        }
+    }
+    </script>
+</head>
+<body>
+<div class="by404">
+    <h1>囧啦！</h1>
+    <p>Sorry,当前网络不给力！</p>
+    <p><a href="javascript:reload()">点击重试</a></p>
+    <p>友情提醒：请查看网络是否通畅！</p>
+</div>
+
+
+</body>
+</html>

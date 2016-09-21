@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyj.fastbee">
+
+    <application
+        android:name=".ui.application.FastBebApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.welcome.WelcomeActivitye"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_welcome_activitye"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.activity.login.LoginActivity" />
+        <activity android:name=".ui.activity.viewpager.ViewpagerShowActivity" />
+        <activity android:name=".ui.activity.viewpager.DemoFragmentActivity" />
+        <activity
+            android:name=".ui.activity.tab.TabActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.activity.permissionmodel.PermissionModelActivitye" />
+        <activity android:name=".ui.activity.contract.ContractActivity" />
+        <activity android:name=".ui.activity.contract.ContractRecycleViewActivity" />
+        <activity android:name=".ui.activity.qr.QRActivity" />
+        <activity android:name=".ui.activity.qr.QrMangerActivity" />
+        <activity android:name=".ui.activity.msg.MsgActivity" />
+        <activity
+            android:name=".ui.activity.friendcircle.FriendCircleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.activity.cache.CacheActivity" />
+        <activity
+            android:name=".ui.activity.dayornight.DayOrNightActivity"
+            android:theme="@style/AppDayTheme" />
+        <activity android:name=".ui.activity.webview.WebviewActivity" />
+        <activity android:name=".ui.activity.other.V4V7DesignActivity" />
+        <activity
+            android:name=".ui.activity.other.toolbar.ToolBarActivity"
+            android:label="@string/title_activity_tool_bar" />
+        <activity
+            android:name=".ui.activity.other.toolbatlayout.ToolbarLayoutActivity"
+            android:theme="@style/ColorTranslucentTheme" />
+        <activity android:name=".ui.activity.other.custombehavior.CustomeBehaviorActivity" />
+        <activity android:name=".ui.activity.blur.BlurActivity" />
+        <activity android:name=".ui.activity.crash.CrashActivity" />
+        <activity android:name=".ui.activity.retrofit.RetrofitActivit"></activity>
+    </application>
+
+</manifest>

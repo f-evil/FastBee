@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+        <attr name="front_color" format="reference|color" />
+        <attr name="show_front_color" format="boolean" />
+        <attr name="image_grey" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleImageView">
+        <attr name="bubble_arrowTop" format="dimension|reference" />
+        <attr name="bubble_arrowWidth" format="dimension|reference" />
+        <attr name="bubble_arrowHeight" format="dimension|reference" />
+        <attr name="bubble_arrowOffset" format="dimension|reference" />
+        <attr name="bubble_angle" format="dimension|reference" />
+        <attr name="bubble_arrowLocation" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="MsgView">
+        <!-- 圆角矩形背景色 -->
+        <attr name="mv_backgroundColor" format="color"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr name="mv_cornerRadius" format="dimension"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr name="mv_strokeWidth" format="dimension"/>
+        <!-- 圆角边框颜色-->
+        <attr name="mv_strokeColor" format="color"/>
+        <!-- 圆角弧度是高度一半-->
+        <attr name="mv_isRadiusHalfHeight" format="boolean"/>
+        <!-- 圆角矩形宽高相等,取较宽高中大值-->
+        <attr name="mv_isWidthHeightEqual" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FriendCirclePtrListView">
+        <!--abslistview start-->
+        <!--=====================================-->
+        <attr name="listSelector"
+            format="color|reference"/>
+        <attr name="transcriptMode">
+            <enum name="disabled"
+                value="0"/>
+            <enum name="normal"
+                value="1"/>
+            <enum name="alwaysScroll"
+                value="2"/>
+        </attr>
+        <attr name="cacheColorHint"
+            format="color"/>
+        <attr name="fastScrollEnabled"
+            format="boolean"/>
+        <attr name="fastScrollStyle"
+            format="reference"/>
+        <attr name="smoothScrollbar"
+            format="boolean"/>
+        <attr name="choiceMode">
+            <enum name="none"
+                value="0"/>
+            <enum name="singleChoice"
+                value="1"/>
+            <enum name="multipleChoice"
+                value="2"/>
+            <enum name="multipleChoiceModal"
+                value="3"/>
+        </attr>
+        <!--=====================================-->
+        <!--abslistview end-->
+        <!--=====================================-->
+        <!--listview start-->
+        <attr name="listview_divider"
+            format="reference|color"/>
+        <attr name="dividerHeight"
+            format="dimension"/>
+        <attr name="overScrollHeader"
+            format="reference|color"/>
+        <attr name="overScrollFooter"
+            format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RichText">
+        <attr name="placeHolder" format="reference" />
+        <attr name="errorImage" format="reference" />
+    </declare-styleable>
+
+</resources>

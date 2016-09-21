@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fyj.fastbee.ui.activity.tab.TabActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="#ccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_item1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_item1"
+                android:gravity="center_horizontal"
+                android:text="item1"
+                android:textColor="@android:color/black" />
+
+            <com.fyj.easylinkingview.unreadmsgview.MsgView
+                android:id="@+id/mv_notif1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textColor="#ffffff"
+                android:textSize="12.5sp"
+                android:visibility="gone"
+                app:mv_backgroundColor="#FD481F"
+                app:mv_isRadiusHalfHeight="true"
+                app:mv_strokeColor="#ffffff"
+                app:mv_strokeWidth="1dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_item2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_item2"
+                android:gravity="center_horizontal"
+                android:text="item1"
+                android:textColor="@android:color/black" />
+
+            <com.fyj.easylinkingview.unreadmsgview.MsgView
+                android:id="@+id/mv_notif2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textColor="#ffffff"
+                android:textSize="12.5sp"
+                android:visibility="gone"
+                app:mv_backgroundColor="#FD481F"
+                app:mv_isRadiusHalfHeight="true"
+                app:mv_strokeColor="#ffffff"
+                app:mv_strokeWidth="1dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_item3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_item3"
+                android:gravity="center_horizontal"
+                android:text="item1"
+                android:textColor="@android:color/black" />
+
+            <com.fyj.easylinkingview.unreadmsgview.MsgView
+                android:id="@+id/mv_notif3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textColor="#ffffff"
+                android:textSize="12.5sp"
+                android:visibility="gone"
+                app:mv_backgroundColor="#FD481F"
+                app:mv_isRadiusHalfHeight="true"
+                app:mv_strokeColor="#ffffff"
+                app:mv_strokeWidth="1dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_item4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_item4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_item4"
+                android:gravity="center_horizontal"
+                android:text="item1"
+                android:textColor="@android:color/black" />
+
+            <com.fyj.easylinkingview.unreadmsgview.MsgView
+                android:id="@+id/mv_notif4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textColor="#ffffff"
+                android:textSize="12.5sp"
+                android:visibility="gone"
+                app:mv_backgroundColor="#FD481F"
+                app:mv_isRadiusHalfHeight="true"
+                app:mv_strokeColor="#ffffff"
+                app:mv_strokeWidth="1dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

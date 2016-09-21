@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b92331</color>
+    <color name="colorPrimaryDark">#8f0d0d</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="blue_tex">#5f81be</color>
+    <color name="title_red">#b92331</color>
+    <color name="words_grey">#999999</color>
+    <color name="background_grey">#F8F8F8</color>
+
+    <color name="line_blue">#00C0FF</color>
+    <color name="line_origin">#FF5500</color>
+    <color name="line_yellow">#F9A900</color>
+    <color name="line_purple">#3C1B90</color>
+
+    <color name="comment_popup_bg">#4c5154</color>
+    <color name="comment_popup_tx_bg">#c7c7c7</color>
+</resources>

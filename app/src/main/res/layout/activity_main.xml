@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <Button
+                android:id="@+id/bt_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="欢迎页" />
+
+            <Button
+                android:id="@+id/bt_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="登录页" />
+
+            <Button
+                android:id="@+id/bt_vp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="滑动页" />
+
+            <Button
+                android:id="@+id/bt_tab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="页签页" />
+
+            <Button
+                android:id="@+id/bt_permission_model"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="权限模型引入" />
+
+            <Button
+                android:id="@+id/bt_qr"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="扫码页" />
+
+            <Button
+                android:id="@+id/bt_msg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="消息页" />
+
+            <Button
+                android:id="@+id/bt_circle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="朋友圈页" />
+
+            <Button
+                android:id="@+id/bt_contract"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="联系人页" />
+
+            <Button
+                android:id="@+id/bt_cache"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="缓存配置" />
+
+            <Button
+                android:id="@+id/bt_dayornight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="夜间模式" />
+
+            <Button
+                android:id="@+id/bt_webview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="Webview" />
+
+            <Button
+                android:id="@+id/bt_blur"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="毛玻璃" />
+
+            <Button
+                android:id="@+id/bt_retrofit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="Retrofit" />
+
+            <Button
+                android:id="@+id/bt_other"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="V7包Design包等示范" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

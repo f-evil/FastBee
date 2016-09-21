@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="V4V7">
+        <item>ToolBar And CoordinatorLayout</item>
+        <item>ToolBar And CollapsingToolbarLayout </item>
+        <item>Custome Behavior</item>
+        <item>xml</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+        <item>html</item>
+    </string-array>
+
+</resources>

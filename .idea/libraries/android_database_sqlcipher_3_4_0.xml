@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-database-sqlcipher-3.4.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/net.zetetic/android-database-sqlcipher/3.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/net.zetetic/android-database-sqlcipher/3.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.zetetic/android-database-sqlcipher/3.4.0/e1cb0e0f54fa6c4fb3b998c2594820db5b57dcbb/android-database-sqlcipher-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

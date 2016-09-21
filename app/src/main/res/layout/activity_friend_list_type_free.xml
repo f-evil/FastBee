@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_person_head"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:src="@drawable/icon_person_head_default" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_tex"
+            tools:text="傅宇杰" />
+
+        <TextView
+            android:id="@+id/tv_ding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/title_red"
+            android:text="顶一下" />
+
+        <TextView
+            android:id="@+id/tv_alias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:textColor="@color/words_grey"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            tools:text="Android项目主管" />
+
+        <RelativeLayout
+            android:id="@+id/ll_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alias"
+            android:layout_marginTop="4dp"
+            android:background="@color/background_grey"
+            android:padding="4dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_poster"
+                android:layout_width="72dp"
+                android:layout_height="102dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                tools:src="@drawable/icon_person_head_default" />
+
+            <TextView
+                android:id="@+id/tv_activity_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/iv_poster"
+                android:textStyle="bold"
+                tools:text="勇士的旅途:员工黄山游." />
+
+            <TextView
+                android:id="@+id/tv_activity_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_activity_addr"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/iv_poster"
+                android:textColor="@color/words_grey"
+                android:textSize="13sp"
+                tools:text="时间: 2015年11月12日 13:00~17:00" />
+
+            <TextView
+                android:id="@+id/tv_activity_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_activity_name"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/iv_poster"
+                android:textColor="@color/words_grey"
+                android:textSize="13sp"
+                tools:text="地点: 学士路556号,信息科技孵化园公交站" />
+
+            <TextView
+                android:id="@+id/tv_activity_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_activity_time"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/iv_poster"
+                android:textColor="@color/words_grey"
+                android:textSize="13sp"
+                tools:text="类型: 旅游" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/words_grey"
+            android:textSize="13sp"
+            tools:text="2小时前" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/blue_tex"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/tv_time"
+            android:textSize="13sp"
+            android:text="删除" />
+
+        <ImageView
+            android:id="@+id/iv_controller"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginTop="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_yue_controller" />
+
+        <TextView
+            android:id="@+id/tv_menber_num"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignTop="@+id/tv_time"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/iv_like"
+            android:gravity="center"
+            android:textColor="@color/words_grey"
+            tools:text="12" />
+
+        <ImageView
+            android:id="@+id/iv_menber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignTop="@+id/tv_time"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/tv_menber_num"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_date_number_in" />
+
+        <TextView
+            android:id="@+id/tv_like_num"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignTop="@+id/tv_time"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/iv_controller"
+            android:gravity="center"
+            android:textColor="@color/words_grey"
+            tools:text="12" />
+
+        <ImageView
+            android:id="@+id/iv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignTop="@+id/tv_time"
+            android:layout_below="@+id/ll_activity"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/tv_like_num"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_date_love_yes" />
+
+        <LinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_time"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_msg_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_comment"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/words_grey"
+            android:textSize="13sp"
+            tools:text="查看全部99条评论" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

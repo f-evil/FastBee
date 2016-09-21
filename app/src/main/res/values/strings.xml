@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FastBee</string>
+
+    <string name="title_activity_welcome_activitye">WelcomeActivitye</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tool_bar">ToolBarActivity</string>
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+    <string name="scale_down_show_behavior">com.fyj.fastbee.ui.activity.other.custombehavior.behavior.ScaleDownBehavior</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80A9A9A9"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <!-- android:background="#99bebebe"-->
+
+    <TextView
+        android:id="@+id/ll_empty_block"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/ll_ll_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pop_menu_window_bgselect"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ll_ll_lv_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#99bebebe"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ll_ll_tv_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/pop_menu_window_bgselect"
+
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/pop_menu_blue_text"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

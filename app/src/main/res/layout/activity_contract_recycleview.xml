@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fyj.fastbee.ui.activity.contract.ContractActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_nofriend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="no friend"
+        android:visibility="gone" />
+
+    <com.fyj.easylinkingview.relationsliderbar.RelationshipSideBar
+        android:id="@+id/fl_sidebar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/red_rect_hollow"
+        android:gravity="center"
+        android:textColor="#b92331"
+        android:textSize="30sp"
+        android:visibility="gone"
+        tools:text="A" />
+
+</FrameLayout>
